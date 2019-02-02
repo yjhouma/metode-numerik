@@ -1,0 +1,10 @@
+clear
+clc
+
+
+secant_(-3,3,0.0001,@f)
+
+
+function y = f(x)
+    y = exp(x) + 2*x;
+end
