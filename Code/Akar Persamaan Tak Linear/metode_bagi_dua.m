@@ -1,4 +1,4 @@
-function x = metode_bagi_dua(titik_kiri, titik_kanan, batas_galat, fun)
+func    tion x = metode_bagi_dua(titik_kiri, titik_kanan, batas_galat, fun)
     %Sebelum masuk fungsi harus di pastikan akar ada
     %diantara titik kiri dan titik kanan
     f_kiri = fun(titik_kiri);
